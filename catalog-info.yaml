@@ -1,0 +1,26 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  iD: "123"
+  name: "Node-Js"
+  description: "Software for backend"
+  version: "1.5"
+  status: "ready to use"
+  la: "Libraries"
+  responsible: {"name":"Devops Team","email":"ameen.mohammed1907@gmail.com"}
+  architects: {"name":"Ameen","email":"ameen.mohammed1907@gmail.com"}
+  last_Review_Date: "2023-09-03"
+  aSIL_Level: "ASIL Level A"
+  permissions: "Guest"
+  price: {"currency":"USD","amount":"100"}
+  usage: ["http://www.harman.com"]
+  license: "Yearly licensing (Annual Subscription)"
+
+  annotations:
+    github.com/project-slug: ameensayedcodes/node-js-2
+    backstage.io/techdocs-ref: dir:.
+    forms.office.com/feedback: https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__WiGkvpUN1pLQ0g0RlNIMVZHRDlQVlA3RDc2S05TTS4u
+spec:
+  type: software
+  lifecycle: onboard
+  owner: "group:default/guests"
